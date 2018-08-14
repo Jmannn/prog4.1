@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DE883C6E212273CA00C14078 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE883C6D212273CA00C14078 /* main.swift */; };
+		DE883C752122741700C14078 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE883C742122741700C14078 /* LinkedList.swift */; };
+		DE883C772122774800C14078 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE883C762122774800C14078 /* Queue.swift */; };
+		DE883C7921227A1E00C14078 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE883C7821227A1E00C14078 /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		DE883C6A212273CA00C14078 /* prog4.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = prog4.1; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE883C6D212273CA00C14078 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DE883C742122741700C14078 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		DE883C762122774800C14078 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		DE883C7821227A1E00C14078 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				DE883C6D212273CA00C14078 /* main.swift */,
+				DE883C7821227A1E00C14078 /* Stack.swift */,
+				DE883C742122741700C14078 /* LinkedList.swift */,
+				DE883C762122774800C14078 /* Queue.swift */,
 			);
 			path = prog4.1;
 			sourceTree = "<group>";
@@ -119,6 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE883C7921227A1E00C14078 /* Stack.swift in Sources */,
+				DE883C752122741700C14078 /* LinkedList.swift in Sources */,
+				DE883C772122774800C14078 /* Queue.swift in Sources */,
 				DE883C6E212273CA00C14078 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
