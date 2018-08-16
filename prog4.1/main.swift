@@ -9,12 +9,13 @@ let str3: String = "Item S";
 let str4: String = "Item M";
 
 var list: LinkedList = LinkedList()
-print("\(list)")
+//print("\(list)")
 
 list.add(object: str1)
 list.add(object: str2)
 list.add(object: str3)
 list.add(object: str4)
+
 print("\(list)")
 
 
@@ -43,3 +44,18 @@ print("\(stack)")
 print("Pushing item: \(str2)")
 stack.push(object: str2)
 print("\(stack)")
+
+
+
+var array: Array = Array(list: list)
+print("\n\(array)")
+
+print("Setting array[2] to \(str1)")
+array[2] = str1
+print("\(array)")
+
+print("Sorting array");
+array.sort(isObject: { o1, o2 in (o1 as! String) < (o2 as! String) })
+for index in 0..<array.count {
+    print("array[\(index)]=\(array[index])")
+}

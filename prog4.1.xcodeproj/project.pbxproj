@@ -11,6 +11,8 @@
 		DE883C752122741700C14078 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE883C742122741700C14078 /* LinkedList.swift */; };
 		DE883C772122774800C14078 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE883C762122774800C14078 /* Queue.swift */; };
 		DE883C7921227A1E00C14078 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE883C7821227A1E00C14078 /* Stack.swift */; };
+		DE883C7B21227BB800C14078 /* SortableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE883C7A21227BB800C14078 /* SortableList.swift */; };
+		DE883C7D21227F2100C14078 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE883C7C21227F2100C14078 /* Array.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,8 @@
 		DE883C742122741700C14078 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		DE883C762122774800C14078 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		DE883C7821227A1E00C14078 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		DE883C7A21227BB800C14078 /* SortableList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortableList.swift; sourceTree = "<group>"; };
+		DE883C7C21227F2100C14078 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +69,9 @@
 			children = (
 				DE883C6D212273CA00C14078 /* main.swift */,
 				DE883C7821227A1E00C14078 /* Stack.swift */,
+				DE883C7C21227F2100C14078 /* Array.swift */,
 				DE883C742122741700C14078 /* LinkedList.swift */,
+				DE883C7A21227BB800C14078 /* SortableList.swift */,
 				DE883C762122774800C14078 /* Queue.swift */,
 			);
 			path = prog4.1;
@@ -130,6 +136,8 @@
 			files = (
 				DE883C7921227A1E00C14078 /* Stack.swift in Sources */,
 				DE883C752122741700C14078 /* LinkedList.swift in Sources */,
+				DE883C7B21227BB800C14078 /* SortableList.swift in Sources */,
+				DE883C7D21227F2100C14078 /* Array.swift in Sources */,
 				DE883C772122774800C14078 /* Queue.swift in Sources */,
 				DE883C6E212273CA00C14078 /* main.swift in Sources */,
 			);
